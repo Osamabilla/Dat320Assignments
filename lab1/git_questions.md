@@ -1,4 +1,11 @@
-# Multiple Choice Questions for Git ([Lecture 5](https://missing.csail.mit.edu/2020/version-control/) from MIT's "The Missing Semester" Course, the [Git book](https://git-scm.com/book/en/v2))
+# Multiple Choice Questions for Git
+
+Please consult [Lecture 5](https://missing.csail.mit.edu/2020/version-control/) from The Missing Semester, and the [Git book](https://git-scm.com/book/en/v2).
+
+Answer the following questions by editing this file by replacing the `[ ]` for the correct answer with `[x]`.
+Only one choice per question is correct.
+Selecting more than one choice will result in zero points.
+No other changes to the text should be made.
 
 1. What does the following Git command do?
    Hint: See `git help commit` for options.

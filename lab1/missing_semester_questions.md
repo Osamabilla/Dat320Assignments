@@ -1,4 +1,6 @@
-# Multiple Choice Questions for Lectures 1, 2 and 4 from MIT's "The Missing Semester" Course
+# Multiple Choice Questions for The Missing Semester
+
+Please consult [Lecture 1, 2 and 4](https://missing.csail.mit.edu/2020/) from The Missing Semester.
 
 Answer the following questions by editing this file by replacing the `[ ]` for the correct answer with `[x]`.
 Only one choice per question is correct.
@@ -73,10 +75,10 @@ No other changes to the text should be made.
 8. What does the following command sequence do?
 
     ```console
-    grep -i "heck" * | sed -E 's/^.*://' | sed -E 's:heck:fluff:g'
+    grep -i "heck" * | sed -E 's/^.*://' | sed -E 's/heck/fluff/g'
     ```
 
-    - [ ] a) prints each line of files in the current directory which contain the text `heck` , and replaces any occurrence of `heck` in the output with `fluff`
+    - [ ] a) prints each line of files in the current directory which contain the text `heck`, and replaces any occurrence of `heck` in the output with `fluff`
     - [ ] b) replaces occurrences of `heck` with `fluff` in all files in the current directory
     - [ ] c) in any file with a `:` character on any line, it replaces any occurrence of `heck` with `fluff`
     - [ ] d) in any file with a `:` character on the same line as the text `heck`, it replaces occurrences of `heck` on that line with `fluff` and prints the result
@@ -84,7 +86,7 @@ No other changes to the text should be made.
 9. What does the following command sequence do?
 
     ```console
-    find . -type f -exec sed -i -e 's/[ ]Linux/ GNU\/Linux/' -e 's/^Linux/GNU\/Linux/' {} \;
+    find . -type f -exec sed -i -e 's:[ ]Linux: GNU/Linux:' -e 's:^Linux:GNU/Linux:' {} \;
     ```
 
     - [ ] a) finds each file in this directory and replaces occurrences of `Linux` with `GNU/Linux`
