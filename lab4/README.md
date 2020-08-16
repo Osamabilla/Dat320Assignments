@@ -3,7 +3,7 @@
 | Lab 4: | Scheduling |
 | ---------------------    | --------------------- |
 | Subject:                 | DAT320 Operating Systems and Systems Programming |
-| Deadline:                | **September 11, 2019 23:59** |
+| Deadline:                | **September 11, 2020 23:59** |
 | Expected effort:         | 5-8 hours |
 | Grading:                 | Pass/fail |
 | Submission:              | Individually |
