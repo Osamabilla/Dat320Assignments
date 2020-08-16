@@ -1,5 +1,3 @@
-// +build !solution
-
 package sequence
 
 // Task 1: Triangular numbers

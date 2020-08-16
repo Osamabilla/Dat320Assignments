@@ -1,5 +1,3 @@
-// +build !solution
-
 package cipher
 
 import (
