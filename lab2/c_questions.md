@@ -152,12 +152,26 @@ No other changes to the text should be made.
     - [ ] d) `int i = (int *) malloc(int);`
     - [ ] e) `int *i = (int *) malloc(sizeof(int));`
 
-9. How would you set the `pid` value of `p` to 10 (`malloc0.c`)
+9. Given the C program below, how would you set the `pid` value of `p` to 10?
 
     - [ ] a) `(*p).pid = 10;`
     - [ ] b) `p.pid = 10;`
     - [ ] c) `pid = 10;`
     - [ ] d) `pid<-p = 10;`
+
+    ```c
+    typedef struct process
+    {
+        int pid;
+    } process_t;
+
+
+    int main()
+    {
+        process_t *p = (process_t *) malloc(sizeof(process_t));
+        // insert option here
+    }
+    ```
 
 10. Given the C program below, what happens at the end of `function`?
 
