@@ -1,3 +1,5 @@
+// +build !solution
+
 package multiwriter
 
 import (
